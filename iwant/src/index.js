@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-const iWantHeader = <h1>iWant - A Wishlist Website</h1>
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(iWantHeader);  
+ReactDOM.render(<App />, document.getElementById('root'));

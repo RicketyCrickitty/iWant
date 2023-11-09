@@ -1,10 +1,14 @@
+import React, { Component } from "react";
+import Header from "./components/Header";
 
-function App() {
-  return (
-    <div className="iWant">
-      <h1>iWant - A Wishlist Website</h1>
-    </div>  
-  );
+class App extends Component {
+  render () {
+    return (
+      <div className="container">
+        <Header user="James"></Header>
+      </div>
+    );
+  }
 }
 
 export default App;
